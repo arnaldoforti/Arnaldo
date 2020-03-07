@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif, 'Indie Flower', cursive;
+    background: #efefef;
+    color: grey;
+}
+
+header{
+    background: #727272;
+}
+
+p{
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+header nav a{
+    padding:40px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: -4px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    background: #878787;
+}
+
+
+h1{
+   text-indent: -9999px;
+   background-image: url('../img/logo.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 240px;
+   display: inline-block;
+   vertical-align: middle;
+   color: white;
+}
+
+nav{
+    display: inline-block;
+    width: 79%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+main{
+    
+    margin: 40px auto 0 auto;
+    /*background: red;*/
+}
+
+#principal{
+    display: inline-block;
+    width: 65%;
+    margin-right: 20px;
+    background: white;
+}
+
+
+#principal h2 {
+    padding: 0px 40px 20px;
+    font-size: 16px;
+}
+
+
+
+
+#principal p {
+    padding: 0 40px;
+}
+
+
+
+aside{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aside-box{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.aside-box h3{
+    text-align: center;
+    color: grey;
+    border-bottom: 1px solid grey;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.aside-box ul {
+    margin-left: 30px;
+}
+
+input {
+    margin: 20px 13px;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+button{
+    padding: 12px;
+    /*text-indent: -9999px;*/
+    background: #A5A5A5;
+    /*background-image: url('../img/logo.jpg');*/
+    border: 0;
+}
+
+
+.banner img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
